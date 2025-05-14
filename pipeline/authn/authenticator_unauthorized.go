@@ -7,12 +7,12 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper/pipeline"
+	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline"
 
 	"github.com/pkg/errors"
 
-	"github.com/aaishahhamdha/oathkeeper/helper"
+	"github.com/aaishahhamdha/oathkeeper2/helper"
 )
 
 type AuthenticatorUnauthorized struct {

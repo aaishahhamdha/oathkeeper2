@@ -15,15 +15,15 @@ import (
 	"github.com/pkg/errors"
 	"github.com/tidwall/gjson"
 
-	"github.com/aaishahhamdha/oathkeeper/x/header"
+	"github.com/aaishahhamdha/oathkeeper2/x/header"
 	"github.com/ory/x/otelx"
 	"github.com/ory/x/stringsx"
 
 	"github.com/ory/herodot"
 
-	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper/helper"
-	"github.com/aaishahhamdha/oathkeeper/pipeline"
+	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper2/helper"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline"
 )
 
 func init() {

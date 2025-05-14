@@ -9,10 +9,10 @@ import (
 
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/aaishahhamdha/oathkeeper/pipeline"
-	pe "github.com/aaishahhamdha/oathkeeper/pipeline/errors"
-	"github.com/aaishahhamdha/oathkeeper/proxy"
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline"
+	pe "github.com/aaishahhamdha/oathkeeper2/pipeline/errors"
+	"github.com/aaishahhamdha/oathkeeper2/proxy"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 
 	"github.com/ory/x/logrusx"
 	"github.com/ory/x/otelx"
@@ -22,13 +22,13 @@ import (
 	"github.com/ory/herodot"
 	"github.com/ory/x/healthx"
 
-	"github.com/aaishahhamdha/oathkeeper/api"
-	"github.com/aaishahhamdha/oathkeeper/credentials"
-	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper/pipeline/authn"
-	"github.com/aaishahhamdha/oathkeeper/pipeline/authz"
-	"github.com/aaishahhamdha/oathkeeper/pipeline/mutate"
-	"github.com/aaishahhamdha/oathkeeper/rule"
+	"github.com/aaishahhamdha/oathkeeper2/api"
+	"github.com/aaishahhamdha/oathkeeper2/credentials"
+	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline/authz"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline/mutate"
+	"github.com/aaishahhamdha/oathkeeper2/rule"
 )
 
 var _ Registry = new(RegistryMemory)

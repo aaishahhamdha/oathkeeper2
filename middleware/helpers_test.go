@@ -4,8 +4,8 @@
 package middleware
 
 import (
-	"github.com/aaishahhamdha/oathkeeper/driver"
-	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper2/driver"
+	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
 )
 
 // WithRegistry is a test option that writes the internal registry used in the

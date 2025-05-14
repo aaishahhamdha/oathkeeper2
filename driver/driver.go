@@ -4,7 +4,7 @@
 package driver
 
 import (
-	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
 )
 
 type Driver interface {

@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 )
 
 // versionCmd represents the version command

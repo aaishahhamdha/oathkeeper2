@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aaishahhamdha/oathkeeper/pipeline/authn"
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 )
 
 const (

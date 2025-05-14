@@ -15,9 +15,9 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/tidwall/sjson"
 
-	"github.com/aaishahhamdha/oathkeeper/internal"
-	. "github.com/aaishahhamdha/oathkeeper/pipeline/authn"
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/internal"
+	. "github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 	"github.com/ory/herodot"
 
 	"github.com/pkg/errors"

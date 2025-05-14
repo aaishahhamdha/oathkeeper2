@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 	"github.com/ory/fosite"
 )
 

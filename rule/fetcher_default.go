@@ -28,9 +28,9 @@ import (
 	"github.com/ory/x/urlx"
 	"github.com/ory/x/watcherx"
 
-	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper/internal/cloudstorage"
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper2/internal/cloudstorage"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 )
 
 var _ Fetcher = new(FetcherDefault)

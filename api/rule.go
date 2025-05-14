@@ -6,13 +6,13 @@ package api
 import (
 	"net/http"
 
-	"github.com/aaishahhamdha/oathkeeper/rule"
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/rule"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 
 	"github.com/julienschmidt/httprouter"
 	"github.com/pkg/errors"
 
-	"github.com/aaishahhamdha/oathkeeper/helper"
+	"github.com/aaishahhamdha/oathkeeper2/helper"
 	"github.com/ory/x/pagination"
 )
 

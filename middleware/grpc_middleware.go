@@ -19,7 +19,7 @@ import (
 	"github.com/ory/herodot"
 	"github.com/ory/x/otelx"
 
-	"github.com/aaishahhamdha/oathkeeper/rule"
+	"github.com/aaishahhamdha/oathkeeper2/rule"
 )
 
 var ErrDenied = herodot.ErrUnauthorized

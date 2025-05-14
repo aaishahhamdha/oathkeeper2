@@ -14,7 +14,7 @@ import (
 	"github.com/julienschmidt/httprouter"
 	"github.com/urfave/negroni"
 
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 	"github.com/ory/x/urlx"
 )
 

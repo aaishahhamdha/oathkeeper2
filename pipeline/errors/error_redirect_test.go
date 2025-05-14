@@ -16,7 +16,7 @@ import (
 
 	"github.com/ory/herodot"
 
-	"github.com/aaishahhamdha/oathkeeper/internal"
+	"github.com/aaishahhamdha/oathkeeper2/internal"
 )
 
 func TestErrorRedirect(t *testing.T) {

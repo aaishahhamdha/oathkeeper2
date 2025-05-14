@@ -6,8 +6,8 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/aaishahhamdha/oathkeeper/cmd/server"
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/cmd/server"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 )
 
 var serveCmd = &cobra.Command{

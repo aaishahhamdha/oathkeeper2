@@ -33,8 +33,8 @@ import (
 	"github.com/ory/x/urlx"
 	"github.com/ory/x/watcherx"
 
-	schema "github.com/aaishahhamdha/oathkeeper/spec"
-	"github.com/aaishahhamdha/oathkeeper/x"
+	schema "github.com/aaishahhamdha/oathkeeper2/spec"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 )
 
 type (

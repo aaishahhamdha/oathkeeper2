@@ -5,7 +5,7 @@ package api
 
 //lint:file-ignore U1000 Used to generate Swagger/OpenAPI definitions.
 
-import "github.com/aaishahhamdha/oathkeeper/rule"
+import "github.com/aaishahhamdha/oathkeeper2/rule"
 
 // A rule
 // swagger:response rule

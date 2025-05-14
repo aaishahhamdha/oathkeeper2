@@ -31,11 +31,11 @@ import (
 	"github.com/ory/x/reqlog"
 	"github.com/ory/x/tlsx"
 
-	"github.com/aaishahhamdha/oathkeeper/api"
-	"github.com/aaishahhamdha/oathkeeper/driver"
-	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper/metrics"
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/api"
+	"github.com/aaishahhamdha/oathkeeper2/driver"
+	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper2/metrics"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 )
 
 func isTimeoutError(err error) bool {

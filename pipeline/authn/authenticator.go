@@ -14,7 +14,7 @@ import (
 
 	"github.com/mitchellh/copystructure"
 
-	"github.com/aaishahhamdha/oathkeeper/pipeline"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline"
 )
 
 var ErrAuthenticatorNotResponsible = errors.New("Authenticator not responsible")

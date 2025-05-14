@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/aaishahhamdha/oathkeeper/pipeline/authn"
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 
-	"github.com/aaishahhamdha/oathkeeper/proxy"
-	"github.com/aaishahhamdha/oathkeeper/rule"
+	"github.com/aaishahhamdha/oathkeeper2/proxy"
+	"github.com/aaishahhamdha/oathkeeper2/rule"
 )
 
 const (

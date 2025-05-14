@@ -9,8 +9,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/aaishahhamdha/oathkeeper/pipeline"
-	"github.com/aaishahhamdha/oathkeeper/pipeline/authn"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
 )
 
 type MutatorBroken struct {

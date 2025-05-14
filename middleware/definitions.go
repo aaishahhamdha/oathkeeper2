@@ -15,11 +15,11 @@ import (
 	"github.com/ory/x/healthx"
 	"github.com/ory/x/logrusx"
 
-	"github.com/aaishahhamdha/oathkeeper/driver"
-	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper/proxy"
-	"github.com/aaishahhamdha/oathkeeper/rule"
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/driver"
+	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper2/proxy"
+	"github.com/aaishahhamdha/oathkeeper2/rule"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 )
 
 type (

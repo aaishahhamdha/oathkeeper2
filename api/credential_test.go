@@ -17,10 +17,10 @@ import (
 
 	"github.com/ory/x/configx"
 
-	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper/internal"
-	"github.com/aaishahhamdha/oathkeeper/rule"
-	"github.com/aaishahhamdha/oathkeeper/x"
+	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper2/internal"
+	"github.com/aaishahhamdha/oathkeeper2/rule"
+	"github.com/aaishahhamdha/oathkeeper2/x"
 )
 
 func TestCredentialsHandler(t *testing.T) {

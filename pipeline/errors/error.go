@@ -11,7 +11,7 @@ import (
 
 	"github.com/ory/herodot"
 
-	"github.com/aaishahhamdha/oathkeeper/pipeline"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline"
 )
 
 type Handler interface {

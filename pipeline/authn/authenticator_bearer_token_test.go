@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aaishahhamdha/oathkeeper/internal"
-	. "github.com/aaishahhamdha/oathkeeper/pipeline/authn"
+	"github.com/aaishahhamdha/oathkeeper2/internal"
+	. "github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
 )
 
 func TestAuthenticatorBearerToken(t *testing.T) {

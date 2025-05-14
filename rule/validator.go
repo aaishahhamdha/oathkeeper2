@@ -10,10 +10,10 @@ import (
 
 	"github.com/ory/herodot"
 
-	"github.com/aaishahhamdha/oathkeeper/pipeline/authn"
-	"github.com/aaishahhamdha/oathkeeper/pipeline/authz"
-	pe "github.com/aaishahhamdha/oathkeeper/pipeline/errors"
-	"github.com/aaishahhamdha/oathkeeper/pipeline/mutate"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline/authz"
+	pe "github.com/aaishahhamdha/oathkeeper2/pipeline/errors"
+	"github.com/aaishahhamdha/oathkeeper2/pipeline/mutate"
 )
 
 type validatorRegistry interface {

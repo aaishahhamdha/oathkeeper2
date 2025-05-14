@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/aaishahhamdha/oathkeeper/internal/httpclient/models"
+	"github.com/aaishahhamdha/oathkeeper2/internal/httpclient/models"
 )
 
 // DecisionsReader is a Reader for the Decisions structure.

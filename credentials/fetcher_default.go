@@ -16,7 +16,7 @@ import (
 
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/aaishahhamdha/oathkeeper/internal/cloudstorage"
+	"github.com/aaishahhamdha/oathkeeper2/internal/cloudstorage"
 
 	"github.com/go-jose/go-jose/v3"
 	"github.com/pkg/errors"

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aaishahhamdha/oathkeeper/cmd"
+	"github.com/aaishahhamdha/oathkeeper2/cmd"
 )
 
 func main() {

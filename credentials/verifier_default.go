@@ -13,7 +13,7 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/pkg/errors"
 
-	"github.com/aaishahhamdha/oathkeeper/helper"
+	"github.com/aaishahhamdha/oathkeeper2/helper"
 	"github.com/ory/fosite"
 	"github.com/ory/herodot"
 	"github.com/ory/x/jwtx"

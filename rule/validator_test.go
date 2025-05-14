@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper/internal"
-	. "github.com/aaishahhamdha/oathkeeper/rule"
+	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper2/internal"
+	. "github.com/aaishahhamdha/oathkeeper2/rule"
 
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
