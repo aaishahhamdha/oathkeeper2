@@ -7,6 +7,7 @@ import (
 	"encoding/json"
 	"net/http"
 	"net/url"
+	"strings"
 
 	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
 	"github.com/aaishahhamdha/oathkeeper/pipeline"
@@ -52,6 +53,15 @@ func (a *ErrorRedirect) Handle(w http.ResponseWriter, r *http.Request, config js
 	r.URL.Scheme = x.OrDefaultString(r.Header.Get(xForwardedProto), r.URL.Scheme)
 	r.URL.Host = x.OrDefaultString(r.Header.Get(xForwardedHost), r.URL.Host)
 	r.URL.Path = x.OrDefaultString(r.Header.Get(xForwardedUri), r.URL.Path)
+	queryParams := r.URL.Query()
+	for paramName, values := range queryParams {
+		// Join multiple values with comma (standard header format)
+		headerValue := values[0] // Take first value if multiple exist
+		if len(values) > 1 {
+			headerValue = strings.Join(values, ",")
+		}
+		r.Header.Set(paramName, headerValue)
+	}
 
 	http.Redirect(w, r, a.RedirectURL(r.URL, c), c.Code)
 	return nil
