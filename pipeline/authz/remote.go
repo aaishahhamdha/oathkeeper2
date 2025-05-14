@@ -19,11 +19,11 @@ import (
 
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper2/helper"
-	"github.com/aaishahhamdha/oathkeeper2/pipeline"
-	"github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
-	"github.com/aaishahhamdha/oathkeeper2/x"
+	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper/helper"
+	"github.com/aaishahhamdha/oathkeeper/pipeline"
+	"github.com/aaishahhamdha/oathkeeper/pipeline/authn"
+	"github.com/aaishahhamdha/oathkeeper/x"
 )
 
 // AuthorizerRemoteConfiguration represents a configuration for the remote authorizer.

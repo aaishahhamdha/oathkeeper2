@@ -19,11 +19,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper2/internal"
-	"github.com/aaishahhamdha/oathkeeper2/proxy"
-	"github.com/aaishahhamdha/oathkeeper2/rule"
-	"github.com/aaishahhamdha/oathkeeper2/x"
+	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper/internal"
+	"github.com/aaishahhamdha/oathkeeper/proxy"
+	"github.com/aaishahhamdha/oathkeeper/rule"
+	"github.com/aaishahhamdha/oathkeeper/x"
 )
 
 func TestProxy(t *testing.T) {

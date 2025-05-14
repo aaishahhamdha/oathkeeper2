@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
+	"github.com/aaishahhamdha/oathkeeper/pipeline/authn"
 
-	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper2/internal"
+	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper/internal"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

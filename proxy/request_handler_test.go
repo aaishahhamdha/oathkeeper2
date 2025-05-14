@@ -16,14 +16,14 @@ import (
 	"github.com/ory/x/configx"
 	"github.com/ory/x/logrusx"
 
-	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper2/internal"
-	"github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
-	"github.com/aaishahhamdha/oathkeeper2/x"
+	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper/internal"
+	"github.com/aaishahhamdha/oathkeeper/pipeline/authn"
+	"github.com/aaishahhamdha/oathkeeper/x"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aaishahhamdha/oathkeeper2/rule"
+	"github.com/aaishahhamdha/oathkeeper/rule"
 )
 
 var TestHeader = http.Header{"Test-Header": []string{"Test-Value"}}

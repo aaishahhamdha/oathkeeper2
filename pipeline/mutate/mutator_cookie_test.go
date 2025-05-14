@@ -11,16 +11,16 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/aaishahhamdha/oathkeeper2/internal"
+	"github.com/aaishahhamdha/oathkeeper/internal"
 
-	"github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
-	. "github.com/aaishahhamdha/oathkeeper2/pipeline/mutate"
+	"github.com/aaishahhamdha/oathkeeper/pipeline/authn"
+	. "github.com/aaishahhamdha/oathkeeper/pipeline/mutate"
 
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aaishahhamdha/oathkeeper2/rule"
+	"github.com/aaishahhamdha/oathkeeper/rule"
 )
 
 func TestCredentialsIssuerCookies(t *testing.T) {

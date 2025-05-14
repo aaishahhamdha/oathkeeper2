@@ -11,14 +11,14 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
 
-	"github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
-	"github.com/aaishahhamdha/oathkeeper2/x"
+	"github.com/aaishahhamdha/oathkeeper/pipeline/authn"
+	"github.com/aaishahhamdha/oathkeeper/x"
 
 	"github.com/pkg/errors"
 
-	"github.com/aaishahhamdha/oathkeeper2/rule"
+	"github.com/aaishahhamdha/oathkeeper/rule"
 )
 
 type proxyRegistry interface {

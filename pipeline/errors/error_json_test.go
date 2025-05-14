@@ -15,7 +15,7 @@ import (
 
 	"github.com/ory/herodot"
 
-	"github.com/aaishahhamdha/oathkeeper2/internal"
+	"github.com/aaishahhamdha/oathkeeper/internal"
 )
 
 func TestErrorJSON(t *testing.T) {

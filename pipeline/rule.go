@@ -4,7 +4,7 @@
 package pipeline
 
 import (
-	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
 )
 
 type Rule interface {

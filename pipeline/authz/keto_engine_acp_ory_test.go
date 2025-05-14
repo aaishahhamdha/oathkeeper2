@@ -15,17 +15,17 @@ import (
 
 	"github.com/ory/x/configx"
 
-	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper2/internal"
-	"github.com/aaishahhamdha/oathkeeper2/x"
+	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper/internal"
+	"github.com/aaishahhamdha/oathkeeper/x"
 
-	"github.com/aaishahhamdha/oathkeeper2/pipeline/authn"
-	. "github.com/aaishahhamdha/oathkeeper2/pipeline/authz"
+	"github.com/aaishahhamdha/oathkeeper/pipeline/authn"
+	. "github.com/aaishahhamdha/oathkeeper/pipeline/authz"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aaishahhamdha/oathkeeper2/rule"
+	"github.com/aaishahhamdha/oathkeeper/rule"
 )
 
 func TestAuthorizerKetoWarden(t *testing.T) {

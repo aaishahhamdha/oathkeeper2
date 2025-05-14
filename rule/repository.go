@@ -7,7 +7,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
 )
 
 type Repository interface {

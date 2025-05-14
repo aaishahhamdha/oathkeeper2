@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
 	"github.com/ory/fosite"
 	"github.com/ory/x/configx"
 	"github.com/ory/x/logrusx"

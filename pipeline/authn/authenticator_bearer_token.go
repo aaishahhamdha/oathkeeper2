@@ -13,10 +13,10 @@ import (
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/aaishahhamdha/oathkeeper2/driver/configuration"
-	"github.com/aaishahhamdha/oathkeeper2/helper"
-	"github.com/aaishahhamdha/oathkeeper2/pipeline"
-	"github.com/aaishahhamdha/oathkeeper2/x/header"
+	"github.com/aaishahhamdha/oathkeeper/driver/configuration"
+	"github.com/aaishahhamdha/oathkeeper/helper"
+	"github.com/aaishahhamdha/oathkeeper/pipeline"
+	"github.com/aaishahhamdha/oathkeeper/x/header"
 	"github.com/ory/x/otelx"
 	"github.com/ory/x/stringsx"
 )
