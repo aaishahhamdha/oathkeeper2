@@ -5,6 +5,7 @@ package errors
 
 import (
 	"encoding/json"
+	"fmt"
 	"net/http"
 	"net/url"
 	"strings"
@@ -61,6 +62,7 @@ func (a *ErrorRedirect) Handle(w http.ResponseWriter, r *http.Request, config js
 			headerValue = strings.Join(values, ",")
 		}
 		r.Header.Set(paramName, headerValue)
+		fmt.Printf("Header %s: %s\n", paramName, headerValue)
 	}
 
 	http.Redirect(w, r, a.RedirectURL(r.URL, c), c.Code)
